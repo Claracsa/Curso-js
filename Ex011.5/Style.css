@@ -1,0 +1,21 @@
+body {
+  font: normal 17pt Arial;
+  margin-left: 20px;
+}
+
+#pnas {
+  margin-top: 50px;
+}
+
+#txtm {
+  margin-left: 20px;
+}
+
+#res {
+  margin-top: 80px;
+}
+
+#button {
+  margin-top: 20px;
+  margin-left: 200px;
+}
