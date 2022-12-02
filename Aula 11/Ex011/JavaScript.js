@@ -1,8 +1,8 @@
 function pesquisar() {
-  var txtp = window.document.getElementById('txtpais').value;
+  var txtp = window.document.querySelector('#txtpais').value;
   var res = window.document.querySelector('div#res');
 
-  res.innerHTML = `<p>Voê nasceu no país ${txtp}</p>`;
+  res.innerHTML = `<p>Você nasceu no país ${txtp}</p>`;
 
   if (txtp == 'Brasil') {
     res.innerHTML += 'Você é <strong>brasileiro</strong>.';
